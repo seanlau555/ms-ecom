@@ -16,6 +16,9 @@ configurations {
 
 allprojects{
 	apply plugin: 'java'
+	ext {
+		set('springCloudVersion', "2021.0.7")
+	}
 	repositories {
 		mavenCentral()
 		maven { url 'https://repo.spring.io/milestone' }
