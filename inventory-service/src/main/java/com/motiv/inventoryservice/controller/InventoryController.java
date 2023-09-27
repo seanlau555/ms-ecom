@@ -1,10 +1,8 @@
 package com.motiv.inventoryservice.controller;
 
 import com.motiv.inventoryservice.dto.InventoryResponse;
-import com.motiv.inventoryservice.repository.InventoryRespository;
 import com.motiv.inventoryservice.service.InventoryService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 

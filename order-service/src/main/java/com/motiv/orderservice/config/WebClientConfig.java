@@ -9,7 +9,7 @@ import org.springframework.web.reactive.function.client.WebClient;
 public class WebClientConfig {
 
   // create a bean of type WebClient, and bean will be created with
-  // the name of the method name(webClient)
+  // the name of the method name (webClient)
   @Bean
   @LoadBalanced
   public WebClient.Builder webClientBuilder() {
